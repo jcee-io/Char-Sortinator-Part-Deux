@@ -13,6 +13,9 @@ app.get('*', (req, res) => {
 	res.redirect('/');
 });
 
+app.get('/:string', (req, res) => {
+  res.send(req.params.string);
+});
 app.listen(process.env.PORT || 3000, () => {
   console.log('app has started!');
 });
