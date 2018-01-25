@@ -12,7 +12,8 @@ app.use(cors());
 
 app.get('/api/:string', (req, res) => {
 	const string = req.params.string;
-  res.send([...string].sort((a,b) => b > a).join(''));
+	const result = [...string].sort((a,b) => b > a).join('');
+  res.send({ string, result });
 });
 
 app.get('*', (req,res) => {
