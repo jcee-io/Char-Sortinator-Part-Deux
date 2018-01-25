@@ -1,0 +1,9 @@
+# Char Sortinator Part Deux
+### By Justin Cruz
+
+There are several components involved in the creation of this full stack application, which are:
+
+1) Server
+2) Client
+3) Testing Suite
+

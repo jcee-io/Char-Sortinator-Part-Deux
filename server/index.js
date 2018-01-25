@@ -10,8 +10,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-
-
 app.get('/api/:string', (req, res) => {
 	const string = req.params.string;
   res.send([...string].sort((a,b) => b > a).join(''));
