@@ -1,0 +1,19 @@
+{
+  "name": "charsortinatorpartdeux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest server/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcruzz/Char-Sortinator-Part-Deux.git"
+  },
+  "author": "Justin Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcruzz/Char-Sortinator-Part-Deux/issues"
+  },
+  "homepage": "https://github.com/jcruzz/Char-Sortinator-Part-Deux#readme"
+}
