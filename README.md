@@ -7,3 +7,8 @@ There are several components involved in the creation of this full stack applica
 2) Client
 3) Testing Suite
 
+## Server
+
+## Client
+
+## Testing Suite
