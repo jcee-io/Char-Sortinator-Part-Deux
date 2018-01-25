@@ -8,6 +8,11 @@ There are several components involved in the creation of this full stack applica
 2) Client
 3) Testing Suite
 
+Following commands can be used after cloning this repo:
+1) npm install
+2) npm test
+3) npm start
+
 ## Server
 ### Modules used: Express, Cors, Body Parser
 
