@@ -21,16 +21,14 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.js"></script>
   <script type="text/javascript">
   	const handler = async (event) => {
-  		const input = document.getElementById('input');
-  		const result = document.getElementById('result');
+  		const { value } = document.getElementById('input');
 
-  		if(input.value.length === 0 || (event && event.code !== "Enter")) {
+  		if(value.length === 0 || (event && event.code !== "Enter")) {
   			return;
   		}
-
-  		console.log(event);
-
-  		const { data } = await axios.get(`/api/${input.value}`);
+  		
+  		const result = document.getElementById('result');
+  		const { data } = await axios.get(`/api/${value}`);
 
   		result.textContent = data;
   	};

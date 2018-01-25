@@ -13,8 +13,8 @@ app.use(cors());
 
 
 app.get('/api/:string', (req, res) => {
-	console.log(req.params);
-  res.send(req.params.string.split('').sort((a,b) => b > a).join(''));
+	const string = req.params.string;
+  res.send([...string].sort((a,b) => b > a).join(''));
 });
 
 app.get('*', (req,res) => {
