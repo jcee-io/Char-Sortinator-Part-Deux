@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcruzz/Char-Sortinator-Part-Deux.git"
+    "url": "https://github.com/jcruzz/Char-Sortinator-Part-Deux.git"
   },
   "author": "Justin Cruz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jcruzz/Char-Sortinator-Part-Deux/issues"
   },
-  "homepage": "https://github.com/jcruzz/Char-Sortinator-Part-Deux#readme"
+  "homepage": "https://github.com/jcruzz/Char-Sortinator-Part-Deux#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
