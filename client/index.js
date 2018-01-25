@@ -1,5 +1,8 @@
-const clickHandler = event => {
+
+const clickHandler = async function() {
 	const input = document.getElementById('input');
+	const result = document.getElementById('result');
+	const { data } = await axios.get(`/api/${input.value}`);
 	
-	event.preventDefault();
+	result.innerHTML = data;
 };
