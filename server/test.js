@@ -1,12 +1,11 @@
 const axios = require('axios');
 
 
-describe('test1', async () => {
+describe('Server Tests', async () => {
 
+	test('it should work on a simple string', async () => {
+		const { data } = await axios.get('http://localhost:3000/api/1a2b3c');
 
-	test('hello', async () => {
-		const data = await axios.get('http://localhost:3000/1a2b3c');
-		console.log(data);
 		expect(data).toEqual('cba321');
 	});
 
