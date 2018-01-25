@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jcruzz/Char-Sortinator-Part-Deux#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2"
   }
 }
